@@ -12,4 +12,4 @@ COPY requirements.txt ./tmp
 RUN pip install -r /tmp/requirements.txt
 
 WORKDIR /app
-COPY /src/app/. /app
+COPY /src/. /app
