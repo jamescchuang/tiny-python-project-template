@@ -9,7 +9,7 @@ FROM base
 ENV TZ Asia/Taipei
 
 COPY requirements.txt ./tmp
-RUN pip install -r requirements.txt
+RUN pip install -r /tmp/requirements.txt
 
 WORKDIR /src
 COPY . /app
