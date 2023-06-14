@@ -11,5 +11,5 @@ ENV TZ Asia/Taipei
 COPY requirements.txt ./tmp
 RUN pip install -r /tmp/requirements.txt
 
-WORKDIR /src
-COPY . /app
+WORKDIR /app
+COPY /src/app/. /app
