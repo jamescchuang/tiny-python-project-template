@@ -1,8 +1,13 @@
 # tiny-python-project-template
 
-## Usage
+## Prerequisite
 
 ```shell
 pip install cookiecutter
+```
+
+## Usage
+
+```shell
 cookiecutter https://github.com/jamescchuang/tiny-python-project-template.git
 ```
